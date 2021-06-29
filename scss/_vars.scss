@@ -1,0 +1,54 @@
+$bg-accent: #a3bbc8;
+$title: #191919;
+$default: #262626;
+$accent: #436372;
+$title : #191919;
+$main : #243f4d;
+$minor : #a3bbc8;
+
+%dmsans-700{
+    font-family: 'DMSans-Bold', sans-serif;
+    font-weight: 700;
+}
+
+%dmsans-500{
+    font-family: 'DMSans-Medium', sans-serif;
+    font-weight: 500;
+}
+%dmsans-400{
+    font-family: 'DMSans-Regular', sans-serif;
+    font-weight: 400;
+}
+
+%poppins-700{
+    font-family: 'Poppins-Bold', sans-serif;
+    font-weight: 700;
+}
+%poppins-600{
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-weight: 600;
+}
+%rubik-500{
+    font-family: 'Rubik-Medium', sans-serif;
+    font-weight: 500;
+}
+%rubik-400{
+    font-family: 'Rubik-Regular', sans-serif;
+    font-weight: 400;
+}
+%rubik-300{
+    font-family: 'Rubik-Light', sans-serif;
+    font-weight: 300;
+}
+%rubik-700{
+    font-family: 'Rubik-Bold', sans-serif;
+    font-weight: 700;
+}
+
+
+@function max($numbers...) {
+@return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+@return m#{i}n(#{$numbers});
+}
